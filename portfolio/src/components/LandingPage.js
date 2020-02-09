@@ -17,7 +17,8 @@ export class LandingPage extends Component {
                             />
                         </div>
                         <div className="banner-text">
-                            <h1>Full Stack Web Developer</h1>
+                            <h1>Jevon Cochran</h1>
+                            <h2>Full Stack Web Developer</h2>
                             <hr />
                             <p>HTML/CSS | Javascript | Bootstrap | React</p>
                             <div className="social-links">
