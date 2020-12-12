@@ -5,6 +5,8 @@ import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
 
+import favelaHeadshot from "../assets/favela-headshot.jpg";
+
 export class Resume extends Component {
     render() {
         return (
@@ -14,7 +16,7 @@ export class Resume extends Component {
                         <Cell col={4}>
                             <div style={{textAlign: 'center'}}>
                                 <img 
-                                    src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                                    src={favelaHeadshot}
                                     alt="avatar"
                                     style={{height: '200px'}}
                                 />
@@ -25,10 +27,10 @@ export class Resume extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <hr style={{borderTop: '3px solid #833FB2', width: '50%'}} />
                             <h5>Address</h5>
-                            <p>1 Hacker Way</p>
-                            <p>Menlo Park, CA 94025</p>
+                            <p>5542 Foothill Blvd</p>
+                            <p>Oakland, CA 94605</p>
                             <h5>Phone</h5>
-                            <p>(510) 424-8282</p>
+                            <p>(510) 424-8976</p>
                             <h5>Email</h5>
                             <p>jevon.cochran@gmail.com</p>
                             <h5>Web</h5>
@@ -44,9 +46,9 @@ export class Resume extends Component {
                                 schoolDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                             />
                             <Education 
-                                startYear="2010"
-                                endYear="2014"
-                                schoolName="My Second University"
+                                startYear="2019"
+                                endYear="2020"
+                                schoolName="Lambda School"
                                 schoolDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                             />
                             <hr style={{borderTop: '3px solid #E22947'}} />
